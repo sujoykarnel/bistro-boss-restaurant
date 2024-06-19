@@ -26,16 +26,16 @@ const Menu = () => {
       {/* Main Cover */}
       <Cover img={menuImg} title={"Our Menu"} />
       {/* Offered Menu Items */}
-      <SectionTitle subHeading={"Do not miss"} heading={"Today's offer"} />
+      <SectionTitle subHeading={"Don't miss"} heading={"Today's offer"} />
       <MenuCategory items={offered} />
       {/* Dessert Menu Items */}
-      <MenuCategory items={dessert} title={"Dessert"} coverImg={dessertImg} />
+      <MenuCategory items={dessert} title={"dessert"} coverImg={dessertImg} />
       {/* Salad Menu Items */}
-      <MenuCategory items={salad} title={"Salad"} coverImg={saladImg} />
+      <MenuCategory items={salad} title={"salad"} coverImg={saladImg} />
       {/* Pizza Menu Items */}
-      <MenuCategory items={pizza} title={"Pizza"} coverImg={pizzaImg} />
+      <MenuCategory items={pizza} title={"pizza"} coverImg={pizzaImg} />
       {/* Soup Menu Items */}
-      <MenuCategory items={soup} title={"Soup"} coverImg={soupImg} />
+      <MenuCategory items={soup} title={"soup"} coverImg={soupImg} />
     </div>
   );
 };

@@ -1,6 +1,4 @@
-
-
-const ShopCard = ({ item }) => {
+const FoodCard = ({ item }) => {
   const { name, recipe, price, image } = item;
   return (
     <div className="card w-96 bg-base-100 shadow-xl m-4">
@@ -19,4 +17,4 @@ const ShopCard = ({ item }) => {
   );
 };
 
-export default ShopCard;
+export default FoodCard;

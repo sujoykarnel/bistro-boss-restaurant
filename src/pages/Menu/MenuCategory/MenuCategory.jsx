@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Cover from "../../Shared/Cover/Cover";
 import MenuItem from "../../Shared/MenuItem/MenuItem";
 
@@ -11,9 +12,11 @@ const MenuCategory = ({ items, title, coverImg }) => {
         ))}
       </div>
       <div className="grid justify-items-center">
-        <button className="btn btn-xs text-orange-400 btn-outline  sm:btn-sm md:btn-md block uppercase border-0 border-b-4">
-          View Full Menu
-        </button>
+        <Link to={`/order/${title}`}>
+          <button className="btn btn-xs text-orange-400 btn-outline  sm:btn-sm md:btn-md block uppercase border-0 border-b-4">
+            View Full Menu
+          </button>
+        </Link>
       </div>
     </div>
   );
