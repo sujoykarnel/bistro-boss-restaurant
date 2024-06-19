@@ -1,4 +1,4 @@
-const MenuCard = ({ item }) => {
+const MenuItem = ({ item }) => {
   const { image, name, recipe, price } = item;
   return (
     <div className="flex space-x-4">
@@ -17,4 +17,4 @@ const MenuCard = ({ item }) => {
   );
 };
 
-export default MenuCard;
+export default MenuItem;
