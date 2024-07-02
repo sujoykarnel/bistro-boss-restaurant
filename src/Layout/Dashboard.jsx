@@ -1,5 +1,5 @@
 import {
-  FaCalendar,
+  FaDollarSign,
   FaEdit,
   FaHome,
   FaList,
@@ -57,13 +57,13 @@ const Dashboard = () => {
             <>
               {/* Normal User Feature Menu */}
               <li>
-                <NavLink to="/dashboard/myHome">
-                  <FaHome /> My Home
+                <NavLink to="/dashboard/userHome">
+                  <FaHome /> User Home
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/dashboard/reservation">
-                  <FaCalendar /> Reservation
+                <NavLink to="/dashboard/paymentHistory">
+                  <FaDollarSign /> Payment History
                 </NavLink>
               </li>
               <li>
