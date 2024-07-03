@@ -12,7 +12,7 @@ const MenuCategory = ({ items, title, coverImg }) => {
         ))}
       </div>
       <div className="grid justify-items-center">
-        <Link to={`/order/${title}`}>
+        <Link to={`/order/${title || "salad"}`}>
           <button className="btn btn-xs text-orange-400 btn-outline  sm:btn-sm md:btn-md block uppercase border-0 border-b-4">
             View Full Menu
           </button>
